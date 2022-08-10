@@ -1,0 +1,5 @@
+SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+  from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+
+  This error message tells you that on line 2, the interpreter is expecting a curly bracket to close off a block,or a hash, and instead it sees a closed parentheses.
+  
