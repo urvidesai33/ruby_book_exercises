@@ -1,0 +1,22 @@
+## Exercise 5 in the Variables Chapter
+
+
+x = 0
+3.times do
+  x += 1
+end
+puts x
+
+In this program x is initialized outside the block and manipulated inside.
+Because x was initialized outside the block, and a variable initiated outside a block is still in scope in the block, 
+the output will be 3.
+
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+
+In this case, x is not a recognized variable in the main program. x was initialized inside the block, and is out of scope for the main program.
